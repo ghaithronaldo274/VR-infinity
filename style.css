@@ -10,7 +10,7 @@ header {
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:15px 25px;
+  padding:20px 40px; /* increased spacing */
   background:#000;
 }
 
@@ -63,18 +63,18 @@ header {
 nav {
   display:flex;
   justify-content:center;
-  gap:15px;
+  gap:25px; /* more space between buttons */
   background:#111;
-  padding:15px;
+  padding:20px; /* more space */
 }
 
 nav button {
-  padding:12px 22px;
-  font-size:16px;
+padding:14px 28px;
+  font-size:17px;
   background:#1a1a1a;
   border:none;
   color:white;
-  border-radius:25px;
+  border-radius:30px;
   cursor:pointer;
   transition:0.3s;
 }
@@ -94,10 +94,10 @@ main {
 
 /* HERO */
 .hero {
-  padding:80px;
+  padding:100px;
   text-align:center;
   background:url('background.webp') center/cover;
-  border-radius:10px;
+  border-radius:15px;
 }
 
 /* GRID */
@@ -110,11 +110,13 @@ main {
 /* CARD */
 .card {
   background:#111;
-  padding:15px;
-  border-radius:10px;
+  padding:20px;
+  border-radius:12px;
   text-align:center;
+  margin:10px; /* NEW */
   transition:0.3s;
 }
+
 
 .card:hover {
   transform:scale(1.05);
